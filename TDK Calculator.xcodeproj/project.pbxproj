@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7249B3931C758CCF00CF1234 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7249B3921C758CCF00CF1234 /* Minecraft.ttf */; };
 		726E5FEA1C74700400DFCD02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726E5FE91C74700400DFCD02 /* AppDelegate.swift */; };
 		726E5FEC1C74700400DFCD02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726E5FEB1C74700400DFCD02 /* ViewController.swift */; };
 		726E5FEF1C74700400DFCD02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 726E5FED1C74700400DFCD02 /* Main.storyboard */; };
 		726E5FF11C74700400DFCD02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 726E5FF01C74700400DFCD02 /* Assets.xcassets */; };
 		726E5FF41C74700400DFCD02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 726E5FF21C74700400DFCD02 /* LaunchScreen.storyboard */; };
+		727A81341C75A7B5003946A7 /* aw.wav in Resources */ = {isa = PBXBuildFile; fileRef = 727A81331C75A7B5003946A7 /* aw.wav */; };
+		727A813A1C75C4A0003946A7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 727A81391C75C4A0003946A7 /* AVFoundation.framework */; };
+		727A813C1C75C913003946A7 /* ricky.wav in Resources */ = {isa = PBXBuildFile; fileRef = 727A813B1C75C913003946A7 /* ricky.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		726E5FE61C74700400DFCD02 /* Retro Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Retro Calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7249B3921C758CCF00CF1234 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		726E5FE61C74700400DFCD02 /* TDK Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TDK Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		726E5FE91C74700400DFCD02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		726E5FEB1C74700400DFCD02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		726E5FEE1C74700400DFCD02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		726E5FF01C74700400DFCD02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		726E5FF31C74700400DFCD02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		726E5FF51C74700400DFCD02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		727A81331C75A7B5003946A7 /* aw.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = aw.wav; sourceTree = "<group>"; };
+		727A81391C75C4A0003946A7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		727A813B1C75C913003946A7 /* ricky.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ricky.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				727A813A1C75C4A0003946A7 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +47,7 @@
 		726E5FDD1C74700400DFCD02 = {
 			isa = PBXGroup;
 			children = (
+				727A81391C75C4A0003946A7 /* AVFoundation.framework */,
 				726E5FE81C74700400DFCD02 /* Retro Calc */,
 				726E5FE71C74700400DFCD02 /* Products */,
 			);
@@ -46,7 +56,7 @@
 		726E5FE71C74700400DFCD02 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				726E5FE61C74700400DFCD02 /* Retro Calc.app */,
+				726E5FE61C74700400DFCD02 /* TDK Calculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +70,9 @@
 				726E5FF01C74700400DFCD02 /* Assets.xcassets */,
 				726E5FF21C74700400DFCD02 /* LaunchScreen.storyboard */,
 				726E5FF51C74700400DFCD02 /* Info.plist */,
+				7249B3921C758CCF00CF1234 /* Minecraft.ttf */,
+				727A81331C75A7B5003946A7 /* aw.wav */,
+				727A813B1C75C913003946A7 /* ricky.wav */,
 			);
 			path = "Retro Calc";
 			sourceTree = "<group>";
@@ -67,9 +80,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		726E5FE51C74700400DFCD02 /* Retro Calc */ = {
+		726E5FE51C74700400DFCD02 /* TDK Calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 726E5FF81C74700400DFCD02 /* Build configuration list for PBXNativeTarget "Retro Calc" */;
+			buildConfigurationList = 726E5FF81C74700400DFCD02 /* Build configuration list for PBXNativeTarget "TDK Calculator" */;
 			buildPhases = (
 				726E5FE21C74700400DFCD02 /* Sources */,
 				726E5FE31C74700400DFCD02 /* Frameworks */,
@@ -79,9 +92,9 @@
 			);
 			dependencies = (
 			);
-			name = "Retro Calc";
+			name = "TDK Calculator";
 			productName = "Retro Calc";
-			productReference = 726E5FE61C74700400DFCD02 /* Retro Calc.app */;
+			productReference = 726E5FE61C74700400DFCD02 /* TDK Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,10 +109,11 @@
 				TargetAttributes = {
 					726E5FE51C74700400DFCD02 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = W8T4AU8AM8;
 					};
 				};
 			};
-			buildConfigurationList = 726E5FE11C74700400DFCD02 /* Build configuration list for PBXProject "Retro Calc" */;
+			buildConfigurationList = 726E5FE11C74700400DFCD02 /* Build configuration list for PBXProject "TDK Calculator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				726E5FE51C74700400DFCD02 /* Retro Calc */,
+				726E5FE51C74700400DFCD02 /* TDK Calculator */,
 			);
 		};
 /* End PBXProject section */
@@ -122,8 +136,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				727A81341C75A7B5003946A7 /* aw.wav in Resources */,
 				726E5FF41C74700400DFCD02 /* LaunchScreen.storyboard in Resources */,
 				726E5FF11C74700400DFCD02 /* Assets.xcassets in Resources */,
+				727A813C1C75C913003946A7 /* ricky.wav in Resources */,
+				7249B3931C758CCF00CF1234 /* Minecraft.ttf in Resources */,
 				726E5FEF1C74700400DFCD02 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,10 +266,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: istrael mayor (4L559P2Z59)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: istrael mayor (4L559P2Z59)";
 				INFOPLIST_FILE = "Retro Calc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kryptonite.Retro-Calc";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "TDK Calculator";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -260,17 +280,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: istrael mayor (4L559P2Z59)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: istrael mayor (4L559P2Z59)";
 				INFOPLIST_FILE = "Retro Calc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kryptonite.Retro-Calc";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "TDK Calculator";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		726E5FE11C74700400DFCD02 /* Build configuration list for PBXProject "Retro Calc" */ = {
+		726E5FE11C74700400DFCD02 /* Build configuration list for PBXProject "TDK Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				726E5FF61C74700400DFCD02 /* Debug */,
@@ -279,13 +302,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		726E5FF81C74700400DFCD02 /* Build configuration list for PBXNativeTarget "Retro Calc" */ = {
+		726E5FF81C74700400DFCD02 /* Build configuration list for PBXNativeTarget "TDK Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				726E5FF91C74700400DFCD02 /* Debug */,
 				726E5FFA1C74700400DFCD02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

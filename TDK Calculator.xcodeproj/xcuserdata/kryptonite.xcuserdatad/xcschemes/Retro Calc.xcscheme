@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "726E5FE51C74700400DFCD02"
-               BuildableName = "Retro Calc.app"
-               BlueprintName = "Retro Calc"
-               ReferencedContainer = "container:Retro Calc.xcodeproj">
+               BuildableName = "TDK Calculator.app"
+               BlueprintName = "TDK Calculator"
+               ReferencedContainer = "container:TDK Calculator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "726E5FE51C74700400DFCD02"
-            BuildableName = "Retro Calc.app"
-            BlueprintName = "Retro Calc"
-            ReferencedContainer = "container:Retro Calc.xcodeproj">
+            BuildableName = "TDK Calculator.app"
+            BlueprintName = "TDK Calculator"
+            ReferencedContainer = "container:TDK Calculator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "726E5FE51C74700400DFCD02"
-            BuildableName = "Retro Calc.app"
-            BlueprintName = "Retro Calc"
-            ReferencedContainer = "container:Retro Calc.xcodeproj">
+            BuildableName = "TDK Calculator.app"
+            BlueprintName = "TDK Calculator"
+            ReferencedContainer = "container:TDK Calculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "726E5FE51C74700400DFCD02"
-            BuildableName = "Retro Calc.app"
-            BlueprintName = "Retro Calc"
-            ReferencedContainer = "container:Retro Calc.xcodeproj">
+            BuildableName = "TDK Calculator.app"
+            BlueprintName = "TDK Calculator"
+            ReferencedContainer = "container:TDK Calculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
